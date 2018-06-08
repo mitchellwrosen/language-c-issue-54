@@ -1,0 +1,9 @@
+name: foo
+version: 0
+cabal-version: >= 1.2
+build-type: Simple
+
+library
+  build-depends: base
+  build-tools: c2hs
+  exposed-modules: Foo
